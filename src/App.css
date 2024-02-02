@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+nav{
+  padding: 0px 21px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul,nav li{
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.support{
+  font-size: 14px;
+  margin: auto 0px;
+  margin-left: 20px;
+  font-weight: 600;
+  padding: 7px 15px;
+  border-radius: 10px;
+  border: 1px solid orange;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.slider{
+  padding: 60px 0px;
+}
+.slider h1{
+  font-size: 100px;
+  font-weight: 800;
+}
+.main_content{
+  background-color: #272B33;
   color: white;
+  padding: 81px 20px;
+}
+.status{
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50%;
+}
+.main_content .main_box{
+  border-radius: 10px;
+  background-color: #3C3E44;
+  margin: 12px;
+}
+.main_content .content{
+  padding: 13px;
+}
+.main_content .img{
+  width: 229px;
+  height: 229px;
+}
+.main_content .img img{
+  border-radius: 10px 0px 0px 10px;
+}
+.main_content .s2 p,.main_content .s3 p{
+  font-size: 16px;
+  color: rgb(158, 158, 158);
+}
+.main_content .s2 span,.main_content .s3 span{
+  font-size: 18px;
+}
+.main_content .s1,.main_content .s2{
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer{
+  padding: 81px 0px;
+  background-color: #202329;
+  color: white;
+  font-size: 14px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer .s1 p,.footer .s1 span,.footer .s2 p,.footer .s2 span{
+  color: #b7b7bf;
+  font-weight: 700;
+}
+.circle{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(10, 188, 10);
+}
+.s3 .power :first-child{
+  color: #B7B7BF;
+  font-size: 12px;
+}
+.s3 .power :last-child{
+  color: white;
+  font-size: 23px;
+  margin-top: -6px !important;
+}
+.icon i{
+  font-size: 18px;
+}
+.top
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
